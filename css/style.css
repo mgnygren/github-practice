@@ -1,0 +1,16 @@
+div {
+    background-color:rgb(112, 0, 157);
+    border: 8px solid #000;
+    display: block;
+    height: 600px;
+    width: 900px;
+    text-align: center;
+    margin: auto;
+}
+
+p {
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 225px 0 0 0;
+}
