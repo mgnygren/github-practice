@@ -1,16 +1,129 @@
-div {
-    background-color:rgb(112, 0, 157);
-    border: 8px solid #000;
-    display: block;
-    height: 600px;
-    width: 900px;
-    text-align: center;
-    margin: auto;
+body {
+    background-color: rgb(237, 237, 237);
 }
 
-p {
-    color: #fff;
-    font-size: 50px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 225px 0 0 0;
+* html #container {
+    height:100%
+}
+
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+#container {
+    width: 1000px;
+    background-color: #E5E5E5;
+    height: 100%;
+    display: block;
+    margin: auto;
+    border-left: solid #969696 1px;
+    border-right: solid #969696 1px;
+}
+
+nav {
+
+    position: fixed;
+    height: 30px;
+    width: 1000px;
+    background-color: #414141;
+    z-index: 1;
+}
+
+#header {
+    display: block;
+    height: 170px;
+    background-color: #C4C4C4;
+    position: relative;
+    top: 30px;
+}
+
+hr {
+    margin: 50px;
+    margin-top: 80px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+    left: -20px;
+    top: -10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e6e6e6;
+
+}
+
+#tag {
+    float: right;
+    margin: 0;
+    color: #838383;
+}
+
+footer {
+    height: 30px;
+    width: 1000px;
+    background-color: #414141;
+    border-top: solid #C4C4C4 20px;
+}
+
+#header img {
+    height: 134px;
+    width: 134px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+#header h1 {
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    font-family: "Libre Barcode 39 Text", sans-serif;
+    font-size: 48px;
+    font-weight: lighter;
+}
+
+#wbox {
+    clear: both;
+    display: block;
+    height: 300px;
+    width: 970px;
+    background-color: #c4c4c4;
+    margin: auto;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px 5px #646464;
+
+}
+
+#lbox {
+    display: block;
+    float: left;
+    height: 300px;
+    width: 470px;
+    background-color: #c4c4c4;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px 5px #646464;
+}
+#rbox {
+    display: block;
+    float: right;
+    height: 300px;
+    width: 470px;
+    margin-bottom: 15px;
+    background-color: #c4c4c4;
+    margin-right: 15px;
+    box-shadow: 5px 5px 5px #646464;
+}
+
+#footerline {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
