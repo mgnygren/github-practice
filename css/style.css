@@ -1,7 +1,5 @@
 body {
-    background-image:url("/img/bgCornerColor.gif"), url("/img/bgCornerColor2.gif");
-    background-position: bottom right, top left;
-    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(153, 153, 153), #ffffff)
 }
 
 * html #container {
