@@ -1,3 +1,4 @@
+/* -------------------------------------  Base  ----------------------------------- */
 body {
     background-image: linear-gradient(#999999, #ffffff)
 }
@@ -21,15 +22,6 @@ body, html{
     border-right: solid #999999 3px;
 }
 
-nav {
-
-    position: fixed;
-    height: 40px;
-    width: 1400px;
-    background-color: #414141;
-    z-index: 1;
-}
-
 #header {
     display: block;
     height: 230px;
@@ -38,9 +30,61 @@ nav {
     top: 30px;
 }
 
+#header img {
+    height: 180px;
+    width: 180px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+#header h1 {
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: 70px;
+    font-family: "Libre Barcode 39 Text", sans-serif;
+    font-size: 80px;
+    font-weight: lighter;
+}
+
 hr {
     margin: 50px;
     margin-top: 80px;
+}
+
+#tag {
+    float: right;
+    margin: 0;
+    color: #838383;
+    font-size: 22px;
+}
+
+footer {
+    height: 30px;
+    width: 1400px;
+    background-color: #414141;
+    border-top: solid #C4C4C4 20px;
+}
+
+#footerline {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* -------------------------------------  Navigation  ----------------------------------- */
+
+
+nav {
+
+    position: fixed;
+    height: 40px;
+    width: 1400px;
+    background-color: #414141;
+    z-index: 1;
 }
 
 nav ul li {
@@ -70,37 +114,7 @@ nav ul li a:active {
 
 }
 
-#tag {
-    float: right;
-    margin: 0;
-    color: #838383;
-    font-size: 22px;
-}
-
-footer {
-    height: 30px;
-    width: 1400px;
-    background-color: #414141;
-    border-top: solid #C4C4C4 20px;
-}
-
-#header img {
-    height: 180px;
-    width: 180px;
-    position: relative;
-    top: 20px;
-    left: 30px;
-}
-
-#header h1 {
-    display: inline-block;
-    position: relative;
-    top: 0px;
-    left: 70px;
-    font-family: "Libre Barcode 39 Text", sans-serif;
-    font-size: 80px;
-    font-weight: lighter;
-}
+/* -------------------------------------  Div  ----------------------------------- */
 
 #wbox {
     clear: both;
@@ -135,21 +149,16 @@ footer {
     box-shadow: 5px 5px 5px #646464;
 }
 
-#footerline {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+#rbox p, #lbox p, #wbox p {
+    padding: 60px;
+    padding-top: 0;
 }
+
+/* -------------------------------------  Font Styling  ----------------------------------- */
 
 p {
     font-family: 'Redacted Script', cursive;
     font-size: 20px;
-}
-
-#rbox p, #lbox p, #wbox p{
-padding: 60px;
-padding-top: 0;
 }
 
 h2 {
