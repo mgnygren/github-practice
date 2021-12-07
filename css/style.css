@@ -1,18 +1,20 @@
 body {
-    background-color: rgb(237, 237, 237);
+    background-image:url("/img/bgCornerColor.gif"), url("/img/bgCornerColor2.gif");
+    background-position: bottom right, top left;
+    background-repeat: no-repeat;
 }
 
 * html #container {
-    height:100%
+    min-height:100%
 }
 
 body, html{
-    height: 100%;
+    min-height: 100%;
     margin: 0;
 }
 
 #container {
-    width: 1000px;
+    width: 1400px;
     background-color: #E5E5E5;
     height: 100%;
     display: block;
@@ -25,7 +27,7 @@ nav {
 
     position: fixed;
     height: 30px;
-    width: 1000px;
+    width: 1400px;
     background-color: #414141;
     z-index: 1;
 }
@@ -66,7 +68,7 @@ nav ul li a {
 
 footer {
     height: 30px;
-    width: 1000px;
+    width: 1400px;
     background-color: #414141;
     border-top: solid #C4C4C4 20px;
 }
@@ -91,8 +93,8 @@ footer {
 #wbox {
     clear: both;
     display: block;
-    height: 300px;
-    width: 970px;
+    min-height: 300px;
+    width: 1370px;
     background-color: #c4c4c4;
     margin: auto;
     margin-bottom: 15px;
@@ -103,8 +105,8 @@ footer {
 #lbox {
     display: block;
     float: left;
-    height: 300px;
-    width: 470px;
+    min-height: 500px;
+    width: 678px;
     background-color: #c4c4c4;
     margin-left: 15px;
     margin-bottom: 15px;
@@ -113,8 +115,8 @@ footer {
 #rbox {
     display: block;
     float: right;
-    height: 300px;
-    width: 470px;
+    min-height: 500px;
+    width: 678px;
     margin-bottom: 15px;
     background-color: #c4c4c4;
     margin-right: 15px;
