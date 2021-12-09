@@ -1,4 +1,16 @@
 /* ---------  Base  --------- */
+
+/*  
+    font-family: 'Bebas Neue', cursive;
+
+    font-family: 'Libre Barcode 39 Text', cursive;
+
+    font-family: 'Ubuntu', sans-serif; 
+
+    https://www.youtube.com/watch?v=INYeSMFdVy4 (saving Temp)
+
+*/
+
 body {
     background-image: linear-gradient(#999999, #ffffff)
 }
@@ -30,6 +42,10 @@ body, html{
     top: 30px;
 }
 
+iframe {
+    margin: auto;
+}
+
 #header img {
     height: 180px;
     width: 180px;
@@ -58,6 +74,8 @@ hr {
     margin: 0;
     color: #838383;
     font-size: 22px;
+    font-family: 'Ubuntu', sans-serif; 
+
 }
 
 footer {
@@ -97,6 +115,7 @@ nav ul li {
 }
 
 nav ul li a {
+    font-family: 'Ubuntu', sans-serif; 
     font-size: 22px;
     text-decoration: none;
     color: #e6e6e6;
@@ -124,6 +143,7 @@ nav ul li a:active {
     background-color: #c4c4c4;
     margin: auto;
     margin-bottom: 15px;
+    padding-top: 1px;
     box-shadow: 5px 5px 5px #646464;
 
 }
@@ -157,12 +177,32 @@ nav ul li a:active {
 /* ---------  Font Styling  --------- */
 
 p {
-    font-family: 'Redacted Script', cursive;
-    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 24px;
 }
 
 h2 {
-    padding-top:40px;
+    padding-top:16px;
+    padding-bottom:30px;
     margin-left: 60px;
+    margin-top: 60px;
+    margin-bottom:60px;
+    font-size: 60px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #d00000;
+    display: block;
+    height:60px;
+    padding-left: 30px;
+    width: 50%;
+    border: 3px dashed black;
+    border-top: none;
+    border-right:none;
+}
+
+h3 {
     font-size: 30px;
+    font-family: 'Ubuntu', sans-serif; 
+    color: #000000;
+
+
 }
