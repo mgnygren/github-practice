@@ -1,15 +1,17 @@
-/* ---------  Base  --------- */
-
 /*  
-    font-family: 'Bebas Neue', cursive;
 
-    font-family: 'Libre Barcode 39 Text', cursive;
+    CSS STRUCTURE
 
-    font-family: 'Ubuntu', sans-serif; 
-
-    https://www.youtube.com/watch?v=INYeSMFdVy4 (saving Temp)
+    Foundation
+    Navigation
+    Div
+    Font Styling
+    Gallery
+    Contact
 
 */
+
+        /* ---------  Foundation  --------- */
 
 body {
     background-image: linear-gradient(#999999, #ffffff)
@@ -43,6 +45,7 @@ body, html{
     top: 30px;
 }
 
+        /* logo */
 #header img {
     height: 180px;
     width: 180px;
@@ -51,6 +54,7 @@ body, html{
     left: 30px;
 }
 
+        /* Logo Text */
 #header h1 {
     display: inline-block;
     position: relative;
@@ -90,7 +94,7 @@ footer {
 }
 
 
-/* ---------  Navigation  --------- */
+        /* ---------  Navigation  --------- */
 
 
 nav {
@@ -130,7 +134,7 @@ nav ul li a:active {
 
 }
 
-/* ---------  Div  --------- */
+        /* ---------  Div  --------- */
 
 #wbox {
     clear: both;
@@ -162,9 +166,7 @@ nav ul li a:active {
     min-height: 800px;
     width: 500px;
     margin-bottom: 15px;
-    background-color: #c4c4c4;
     margin-right: 15px;
-    box-shadow: 5px 5px 5px #646464;
 }
 
 #clear {
@@ -176,7 +178,74 @@ nav ul li a:active {
     padding-top: 0;
 }
 
-/* ---------  Font Styling  --------- */
+#profilePic {
+    display: inline-block;
+    height: 719px;
+    width: 400px;
+    background-color: #c4c4c4;
+    box-shadow: 5px 5px 5px #646464;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+#aboutContent {
+    float: right;
+    display: inline-block;
+    height: 719px;
+    width: 945px;
+    background-color: #c4c4c4;
+    box-shadow: 5px 5px 5px #646464;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+#aboutImage {
+    display: block;
+    height: 769px;
+    width: 1365px;
+    background-color: #c4c4c4;
+    box-shadow: 5px 5px 5px #646464;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+#contactBox {
+    display: block;
+    min-height: 600px;
+    width: 1370px;
+    background-color: #c4c4c4;
+    margin: auto;
+    margin-bottom: 15px;
+    padding-top: 1px;
+    box-shadow: 5px 5px 5px #646464;
+}
+
+#gMaps {
+    display: block;
+    min-height: 450px;
+    width: 1370px;
+    background-color: #c4c4c4;
+    margin: auto;
+    margin-bottom: 15px;
+    padding-top: 1px;
+    box-shadow: 5px 5px 5px #646464;
+    border: 1px solid #000000;
+}
+
+#birb {
+    display:block;
+    height: 112px;
+    width: 112px;
+    float: right;
+    position: relative;
+    top: 360px;
+    left: -20px;
+    background-image: url(/img/birb112.png)
+}
+
+
+        /* ---------  Font Styling  --------- */
 
 p {
     font-family: 'Ubuntu', sans-serif; 
@@ -202,27 +271,64 @@ h2 {
 }
 
 h3 {
-    padding-top:16px;
-    padding-bottom:30px;
     margin-left: 60px;
     margin-top: 60px;
     margin-bottom:60px;
     font-size: 60px;
     font-family: 'Bebas Neue', sans-serif;
-    color: #d00000;
+    color: #2b2b2b;
     display: block;
     height:60px;
     padding-left: 30px;
 }
 
+h4 {
+    font-size: 26px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif; 
+    color: #2b2b2b;
+}
 #center {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 30px;
+    
 }
 
-/* ---------  Gallery  --------- */
+#leftlist {
+    list-style:none;
+    float: left;
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+#rightlist {
+    list-style:none;
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 20px;
+    position: relative;
+    top: 100px;
+}
+
+#rightlist a {
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 22px;
+    text-decoration: none;
+    color: #2b2b2b;
+}
+
+#rightlist a:hover {
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 22px;
+    text-decoration: none;
+    color: #d00000;
+}
+
+        /* ---------  Gallery  --------- */
 
 #gallery {
     border:1px solid #c4c4c4;
@@ -245,3 +351,44 @@ h3 {
     padding: 15px;
     text-align: center;
 }
+
+
+        /* ---------  Contact  --------- */
+label {
+    display: block;
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 24px;
+}
+
+input[type=text], select, textarea {
+    font-family: 'Ubuntu', sans-serif; 
+    width: 1300px;;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 24px;
+  }
+  form {
+      margin: 40px;
+  }
+
+  input[type=submit] {
+    font-family: 'Ubuntu', sans-serif; 
+    background-color: #d00000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 70px;
+    width: 1300px;
+    font-size: 24px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #d82222;
+  }
