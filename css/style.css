@@ -232,7 +232,7 @@ nav ul li a:active {
     position: relative;
     top: 378px;
     left: 0px;
-    background-image: url(img/birb112.png);
+    background-image: url(img/birb112.png), url(/img/birb112.png);
 }
 
 #reaper {
