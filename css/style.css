@@ -79,20 +79,6 @@ hr {
 
 }
 
-footer {
-    height: 30px;
-    width: 1400px;
-    background-color: #414141;
-    border-top: solid #C4C4C4 20px;
-}
-
-#footerline {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
 
         /* ---------  Navigation  --------- */
 
@@ -131,7 +117,6 @@ nav ul li a:active {
     font-size: 22px;
     text-decoration: none;
     color: #ff4d4d;
-
 }
 
         /* ---------  Div  --------- */
@@ -237,8 +222,8 @@ nav ul li a:active {
     width: 112px;
     float: right;
     position: relative;
-    top: 360px;
-    left: -20px;
+    top: 378px;
+    left: 0px;
     background-image: url(/img/birb112.png)
 }
 
@@ -309,7 +294,7 @@ h4 {
     font-family: 'Ubuntu', sans-serif; 
     font-size: 20px;
     position: relative;
-    top: 100px;
+    top: 120px;
 }
 
 #rightlist a {
@@ -390,3 +375,50 @@ input[type=text], select, textarea {
   input[type=submit]:hover {
     background-color: #d82222;
   }
+
+        /* ---------  Footer  --------- */
+
+
+  footer {
+    height: 40px;
+    width: 1400px;
+    background-color: #414141;
+    border-top: solid #C4C4C4 20px;
+    display: block;
+}
+
+#footerline {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+  
+footer ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+    left: -20px;
+    top: -10px;
+}
+
+footer ul li a {
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 22px;
+    text-decoration: none;
+    color: #e6e6e6;
+}
+footer ul li a:hover {
+    font-size: 22px;
+    text-decoration: none;
+    color: #a2a2a2;
+}
+
+footer ul li a:active {
+    font-size: 22px;
+    text-decoration: none;
+    color: #ff4d4d;
+
+}
+
