@@ -179,7 +179,6 @@ nav ul li a:active {
 }
 
 #profilePic {
-    display: inline-block;
     height: 719px;
     width: 400px;
     background-color: #c4c4c4;
@@ -191,7 +190,6 @@ nav ul li a:active {
 
 #aboutContent {
     float: right;
-    display: inline-block;
     height: 719px;
     width: 945px;
     background-color: #c4c4c4;
