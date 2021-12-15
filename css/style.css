@@ -158,6 +158,14 @@ nav ul li a:active {
     clear: both;
 }
 
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    
+}
+
 #rbox p, #lbox p, #wbox p {
     padding: 60px;
     padding-top: 0;
@@ -273,13 +281,6 @@ h4 {
     font-family: 'Ubuntu', sans-serif; 
     color: #2b2b2b;
 }
-#center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 30px;
-    
-}
 
 #leftlist {
     list-style:none;
@@ -311,6 +312,11 @@ h4 {
     color: #d00000;
 }
 
+#desc {
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 20px;
+
+}
         /* ---------  Gallery  --------- */
 
 #gallery {
