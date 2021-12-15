@@ -40,7 +40,7 @@ body, html{
     display: block;
     height: 400px;
     background-color: #C4C4C4;
-    background-image: url("/img/hero.png");
+    background-image: url("img/hero.png");
     position: relative;
     top: 30px;
 }
@@ -232,7 +232,7 @@ nav ul li a:active {
     position: relative;
     top: 378px;
     left: 0px;
-    background-image: url(/img/birb112.png)
+    background-image: url(img/birb112.png)
 }
 
 #reaper {
@@ -243,7 +243,7 @@ nav ul li a:active {
     position: relative;
     top: 101px;
     left: -40px;
-    background-image: url(/img/reaper112.png)
+    background-image: url(img/reaper112.png)
 }
 
 #axolotl {
@@ -254,7 +254,7 @@ nav ul li a:active {
     position: relative;
     top: -14px;
     left: 14px;
-    background-image: url(/img/axolotl112.png)
+    background-image: url(img/axolotl112.png)
 }
 
 
