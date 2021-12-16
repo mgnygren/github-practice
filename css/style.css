@@ -230,7 +230,8 @@ nav ul li a:active {
     position: relative;
     top: 378px;
     left: 0px;
-    background-image: url(img/birb112.png), url(/img/birb112.png);
+    background-image: url(img/birb112.png), url(/img/birb112.png), url(./img/birb112.png);
+    background-size:cover;
 }
 
 #reaper {
@@ -241,7 +242,8 @@ nav ul li a:active {
     position: relative;
     top: 101px;
     left: -40px;
-    background-image: url(img/reaper112.png), url(/img/reaper112.png);
+    background-image: url(img/reaper112.png), url(/img/reaper112.png), url(./img/reaper112.png);
+    background-size:cover;
 }
 
 #axolotl {
@@ -252,7 +254,8 @@ nav ul li a:active {
     position: relative;
     top: -14px;
     left: 14px;
-    background-image: url(img/axolotl112.png), url(/img/axolotl112.png);
+    background-image: url(img/axolotl112.png), url(/img/axolotl112.png), url(./img/axolotl112.png);
+    background-size:cover;
 }
 
 
