@@ -8,6 +8,7 @@
     Font Styling
     Gallery
     Contact
+    Footer
 
 */
 
@@ -45,7 +46,7 @@ body, html{
     top: 30px;
 }
 
-        /* logo */
+    /* logo */
 #header img {
     height: 180px;
     width: 180px;
@@ -54,7 +55,7 @@ body, html{
     left: 30px;
 }
 
-        /* Logo Text */
+    /* Logo Text */
 #header h1 {
     display: inline-block;
     position: relative;
@@ -76,7 +77,6 @@ hr {
     color: #838383;
     font-size: 22px;
     font-family: 'Ubuntu', sans-serif; 
-
 }
 
 
@@ -84,7 +84,6 @@ hr {
 
 
 nav {
-
     position: fixed;
     height: 40px;
     width: 1400px;
@@ -107,6 +106,7 @@ nav ul li a {
     text-decoration: none;
     color: #e6e6e6;
 }
+
 nav ul li a:hover {
     font-size: 22px;
     text-decoration: none;
@@ -131,7 +131,6 @@ nav ul li a:active {
     margin-bottom: 15px;
     padding-top: 1px;
     box-shadow: 5px 5px 5px #646464;
-
 }
 
 #lbox {
@@ -163,7 +162,6 @@ nav ul li a:active {
     justify-content: center;
     align-items: center;
     padding-top: 30px;
-    
 }
 
 #rbox p, #lbox p, #wbox p {
@@ -363,7 +361,6 @@ h4 {
 #desc {
     font-family: 'Ubuntu', sans-serif; 
     font-size: 20px;
-
 }
         /* ---------  Gallery  --------- */
 
@@ -389,8 +386,8 @@ h4 {
     text-align: center;
 }
 
-
         /* ---------  Contact  --------- */
+
 label {
     display: block;
     font-family: 'Ubuntu', sans-serif; 
@@ -409,6 +406,7 @@ input[type=text], select, textarea {
     resize: vertical;
     font-size: 24px;
   }
+
   form {
       margin: 40px;
   }
@@ -432,7 +430,6 @@ input[type=text], select, textarea {
   }
 
         /* ---------  Footer  --------- */
-
 
   footer {
     height: 40px;
@@ -474,6 +471,5 @@ footer ul li a:active {
     font-size: 22px;
     text-decoration: none;
     color: #ff4d4d;
-
 }
 
