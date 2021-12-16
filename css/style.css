@@ -43,7 +43,7 @@ body, html{
     background-image: url("../img/hero.png"), url("img/hero.png"), url("/img/hero.png");
     background-size:cover;
     position: relative;
-    top: 30px;
+    top: 40px;
 }
 
     /* logo */
